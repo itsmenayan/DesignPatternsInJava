@@ -1,0 +1,10 @@
+package com.abstractfactory;
+
+public class Shark implements Animal{
+	
+	@Override
+	public String speak() {
+		return "Can't speak";
+	}
+
+}
