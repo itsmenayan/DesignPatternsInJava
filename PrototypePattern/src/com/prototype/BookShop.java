@@ -21,6 +21,7 @@ public class BookShop implements Cloneable{
 	}
 	
 	public void loadBooks() {
+		//Costly DB operation or complex business logic for setting the properties
 		for(int i=0;i<10;i++) {
 			Book book = new Book();
 			book.setBookId(i);
