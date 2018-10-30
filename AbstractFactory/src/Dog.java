@@ -1,4 +1,3 @@
-package com.abstractfactory;
 
 public class Dog implements Animal{
 	
